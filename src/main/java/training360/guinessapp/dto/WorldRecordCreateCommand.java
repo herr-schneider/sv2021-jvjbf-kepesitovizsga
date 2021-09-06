@@ -24,12 +24,12 @@ public class WorldRecordCreateCommand {
     private String description;
 
     @NotNull
-    private Double measure;
+    private Double value;
 
     @NotNull
     @NotBlank
     @NotEmpty // @Name
-    private String unit;
+    private String unitOfMeasure;
 
     @NotNull
     private LocalDate date;
