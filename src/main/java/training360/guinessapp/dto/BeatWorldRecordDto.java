@@ -12,11 +12,21 @@ import java.time.LocalDate;
 public class BeatWorldRecordDto {
     private String description;
 
-    private Double measure;
+    private Double newRecordValue;
 
-    private String unit;
+    private Double oldRecordValue;
+
+    private String unitOfMeasure;
+
+    private String oldRecorderName;
+
+    private String newRecorderName;
 
     private LocalDate date;
+
+    private Double getRecordDifference(){
+        return oldRecordValue-newRecordValue;
+    }
 
     private Long recorder;
 }
