@@ -24,7 +24,7 @@ public class BeatWorldRecordDto {
 
     private LocalDate date;
 
-    private Double getRecordDifference(){
+    public Double getRecordDifference(){
         return oldRecordValue-newRecordValue;
     }
 
