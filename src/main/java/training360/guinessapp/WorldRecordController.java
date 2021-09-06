@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("/api/worldrecords")
+@RequestMapping("/api/worldrecord")
 public class WorldRecordController {
 
     private WorldRecordService worldRecordService;
